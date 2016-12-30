@@ -1,12 +1,12 @@
 # ¿Qué es?
 
-Servicio NodeJS con Docker
+Servicio NodeJS con Docker.
 
 
 # Pre requisitos
 
-1. Docker 1.12+
-2. NodeJS 7.3+
+1. [Docker](https://www.docker.com) 1.12+
+2. [NodeJS](https://nodejs.org) 7.3+
 
 # Cómo empezar
 
@@ -49,11 +49,23 @@ CONTAINER ID        IMAGE               COMMAND                  CREATED        
 01f01ec765e6        docker-nodejs       "node /usr/src/app/ap"   5 minutes ago       Up 4 minutes        0.0.0.0:49160->8080/tcp   sick_lovelace
 ```
 
+Parada
 
 ```
 docker stop 01f01ec765e6
 ```
 
+o
+
+Destruyendo
+
+```
+docker rm 01f01ec765e6
+```
+
+
 # Referencias
 
-[nodejs.org](https://nodejs.org/en/docs/guides/nodejs-docker-webapp/)
+[NodeJS.org](https://nodejs.org/en/docs/guides/nodejs-docker-webapp/)
+
+[Docker.com](https://www.docker.com/)
