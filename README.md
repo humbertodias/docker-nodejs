@@ -63,6 +63,18 @@ Destruyendo
 docker rm 01f01ec765e6
 ```
 
+# Cuanto cuesta?
+
+Sólo ~36MB!
+
+```
+docker images
+```
+
+```
+REPOSITORY            TAG                 IMAGE ID            CREATED             SIZE
+docker-nodejs         latest              fc1aaeddb391        18 minutes ago      36.31 MB
+```
 
 # Referencias
 
