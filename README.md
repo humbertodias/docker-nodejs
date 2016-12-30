@@ -10,7 +10,6 @@ Servicio de NodeJS con Docker usando AlpineLinux.
 
 # Cómo empezar
 
-
 Construir
 
 ```
@@ -35,6 +34,15 @@ Respuesta
 Node.JS con Docker!
 ```
 
+# Acceso remoto
+
+```
+docker run -t -i docker-nodejs /bin/sh
+```
+
+```
+/usr/src/app #
+```
 
 # Cómo detener
 
@@ -87,9 +95,10 @@ docker-nodejs         latest              fc1aaeddb391        18 minutes ago    
 
 # Referencias
 
+1. [www.docker.com](https://www.docker.com)
 
-[Docker.com](https://www.docker.com)
+2. [hub.docker.com](https://hub.docker.com)
 
-[AlpineLinux](https://alpinelinux.org)
+3. [alpinelinux.org](https://alpinelinux.org)
 
-[NodeJS.org](https://nodejs.org/en/docs/guides/nodejs-docker-webapp/)
+4. [nodejs.org](https://nodejs.org/en/docs/guides/nodejs-docker-webapp/)
