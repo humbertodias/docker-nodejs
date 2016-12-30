@@ -6,7 +6,7 @@ Servicio de NodeJS con Docker usando AlpineLinux.
 # Prerrequisitos
 
 1. [Docker](https://www.docker.com) 1.12+
-2. [NodeJS](https://nodejs.org) 7.3+
+2. [VirtualBox](www.virtualbox.org) 5.0+ (required only for Mac or Windows)
 
 # Cómo empezar
 
