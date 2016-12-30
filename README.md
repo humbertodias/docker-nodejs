@@ -3,7 +3,7 @@
 Servicio NodeJS con Docker.
 
 
-# Pre requisitos
+# Prerrequisitos
 
 1. [Docker](https://www.docker.com) 1.12+
 2. [NodeJS](https://nodejs.org) 7.3+
@@ -63,7 +63,7 @@ Destruyendo
 docker rm 01f01ec765e6
 ```
 
-# Cuanto cuesta?
+# ¿Cuanto cuesta?
 
 Sólo ~36MB!
 
@@ -78,6 +78,9 @@ docker-nodejs         latest              fc1aaeddb391        18 minutes ago    
 
 # Referencias
 
-[NodeJS.org](https://nodejs.org/en/docs/guides/nodejs-docker-webapp/)
 
-[Docker.com](https://www.docker.com/)
+[Docker.com](https://www.docker.com)
+
+[AlpineLinux](https://alpinelinux.org)
+
+[NodeJS.org](https://nodejs.org/en/docs/guides/nodejs-docker-webapp/)
