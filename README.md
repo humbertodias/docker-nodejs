@@ -1,6 +1,6 @@
 # ¿Qué es?
 
-Servicio NodeJS con Docker.
+Servicio de NodeJS con Docker usando AlpineLinux.
 
 
 # Prerrequisitos
@@ -66,6 +66,15 @@ docker rm 01f01ec765e6
 # ¿Cuanto cuesta?
 
 Sólo ~36MB!
+
+Dónde:
+
+Paquete | MB
+--- | ---
+AlpineLinux | 4
+NodeJS | 32
+
+Mostrar docker imágenes
 
 ```
 docker images
