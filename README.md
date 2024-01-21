@@ -12,31 +12,29 @@ Servicio de NodeJS con Docker usando AlpineLinux.
 
 Construir
 
-```
+```shell
 docker build -t docker-nodejs .
 ```
 
 Correndo
 
-```
+```shell
 docker run -p 49160:8080 -d docker-nodejs
 ```
 
 Por último, en su navegador 
 
-```
-localhost:49160
-```
+http://localhost:49160
 
 Respuesta
 
-```
+```shell
 Node.JS con Docker!
 ```
 
 # Acceso remoto
 
-```
+```shell
 docker run -t -i docker-nodejs /bin/sh
 ```
 
@@ -48,7 +46,7 @@ docker run -t -i docker-nodejs /bin/sh
 
 Tome el ID del CONTENEDOR
 
-```
+```shell
 docker ps
 ```
 
@@ -59,7 +57,7 @@ CONTAINER ID        IMAGE               COMMAND                  CREATED        
 
 Parada
 
-```
+```shell
 docker stop 01f01ec765e6
 ```
 
@@ -67,7 +65,7 @@ o
 
 Destruyendo
 
-```
+```shell
 docker rm 01f01ec765e6
 ```
 
@@ -84,7 +82,7 @@ NodeJS | 32
 
 Mostrar docker imágenes
 
-```
+```shell
 docker images
 ```
 

@@ -1,7 +1,7 @@
-FROM alpine:3.5
+FROM alpine:3.19
 
 # Update
-RUN apk add --update nodejs
+RUN apk add --update nodejs npm
 
 # Cria a pasta da app
 RUN mkdir -p /usr/src/app
